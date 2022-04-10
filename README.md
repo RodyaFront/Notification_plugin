@@ -2,14 +2,22 @@
 
 ## Plugin for displaying messages in the layout
 
+First - create instance
 ```
 const message = new Message() // Create instance
 
 message.notification(options) // Push notification
 ```
+or in Vue
+```
+Vue.$message = new Message()
+```
+in component
+```
+this.$message.notification(options)
+```
 
 Options example
-
 ```
 const options = {
   title: String,
