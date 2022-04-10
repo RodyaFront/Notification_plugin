@@ -11,9 +11,7 @@ message.notification(options) // Push notification
 or in Vue
 ```
 Vue.$message = new Message()
-```
-in component
-```
+// next in vue component
 this.$message.notification(options)
 ```
 
